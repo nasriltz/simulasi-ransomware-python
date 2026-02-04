@@ -11,7 +11,7 @@ Proyek ini mensimulasikan cara kerja Ransomware modern yang menggunakan algoritm
     Alat Komunikasi: Telegram Bot API (@BotFather)
 
 ## Komponen Utama
-* 'kunci.py': Script pengunci (Encryption) & pengirim kunci ke Telegram.
+* `kunci.py` : Script pengunci (Encryption) & pengirim kunci ke Telegram.
 * `selamatkan.py`: Script penawar (Decryption) untuk mengembalikan file.
 * `target.txt`: File simulasi yang menjadi korban.
 
