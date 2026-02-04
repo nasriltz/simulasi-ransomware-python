@@ -24,11 +24,11 @@ Proyek ini mensimulasikan cara kerja Ransomware modern yang menggunakan algoritm
 
 Simulasi ini menunjukkan betapa mudahnya malware berkomunikasi dengan server luar menggunakan layanan legal seperti Telegram.
 
-Cara Mencegah:
+## Cara Mencegah:
 
-Jangan menjalankan script atau aplikasi dari sumber tidak dikenal.
+   jangan menjalankan script atau aplikasi dari sumber tidak dikenal.
 
-Pantau lalu lintas jaringan (Network Monitoring) untuk mendeteksi aktivitas API yang mencurigakan.
+   Pantau lalu lintas jaringan (Network Monitoring) untuk mendeteksi aktivitas API yang mencurigakan.
 
-Selalu lakukan backup data secara offline (Cold Backup).
+   Selalu lakukan backup data secara offline (Cold Backup).
 
