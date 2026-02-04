@@ -1,8 +1,7 @@
 from cryptography.fernet import Fernet
 
-# Teks di dalam input() cuma label, jangan diisi kunci di sini
 print("--- PROGRAM PENYELAMAT FILE ---")
-kunci_input = input(" wtYig18tYdRuBUiKZ7ZlGC8Xgvb2OdVYafLI2nx475o= ").strip()
+kunci_input = input("KODE KEY TELEGRAM KAMU").strip()
 
 try:
     # Mengubah teks input menjadi format bytes yang dipahami Fernet
@@ -11,7 +10,7 @@ try:
     with open("target.txt", "rb") as f:
         data_terkunci = f.read()
 
-    # Proses membuka gembok
+    # Cara membuka gembok
     data_asli = cipher.decrypt(data_terkunci)
 
     with open("target.txt", "wb") as f:
