@@ -26,9 +26,9 @@ Simulasi ini menunjukkan betapa mudahnya malware berkomunikasi dengan server lua
 
 Cara Mencegah:
 
-    Jangan menjalankan script atau aplikasi dari sumber tidak dikenal.
+Jangan menjalankan script atau aplikasi dari sumber tidak dikenal.
 
-    Pantau lalu lintas jaringan (Network Monitoring) untuk mendeteksi aktivitas API yang mencurigakan.
+Pantau lalu lintas jaringan (Network Monitoring) untuk mendeteksi aktivitas API yang mencurigakan.
 
-    Selalu lakukan backup data secara offline (Cold Backup).
+Selalu lakukan backup data secara offline (Cold Backup).
 
