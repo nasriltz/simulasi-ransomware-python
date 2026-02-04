@@ -2,8 +2,8 @@ import requests
 from cryptography.fernet import Fernet
 
 # --- DATA YANG SUDAH KITA TEMUKAN ---
-TOKEN = "8118606358:AAHXi0iaUy5M7F6Gs-sbnzqN5kmIbAKxlPo"
-CHAT_ID = "5415677563"
+TOKEN = os.getenv("TELEGRAM_TOKEN")
+CHAT_ID = "MASUKKAN_CHAT_ID_DISINI"
 
 def kirim_ke_telegram(pesan):
     url = f"https://api.telegram.org/bot{TOKEN}/sendMessage"
