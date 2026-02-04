@@ -1,6 +1,14 @@
 # Simulasi Ransomware PoC (Educational Purpose)
 
-Repository ini berisi simulasi sederhana cara kerja Ransomware menggunakan Python. Proyek ini dibuat untuk memenuhi tugas mata kuliah Keamanan Siber.
+Proyek ini mensimulasikan cara kerja Ransomware modern yang menggunakan algoritma enkripsi standar industri (AES) dan memanfaatkan Telegram Bot API sebagai jalur pencurian kunci (Exfiltration) agar penyerang dapat menerima kunci dekripsi secara jarak jauh (remote).
+
+## 2. Persiapan Lingkungan
+
+    OS: Kali Linux / Termux (Android)
+
+    Library Python: cryptography, requests
+
+    Alat Komunikasi: Telegram Bot API (@BotFather)
 
 ## Komponen Utama
 * `kunci.py`: Script pengunci (Encryption) & pengirim kunci ke Telegram.
@@ -12,5 +20,15 @@ Repository ini berisi simulasi sederhana cara kerja Ransomware menggunakan Pytho
 2. **Exfiltration**: Kunci enkripsi dikirim secara otomatis ke Telegram Bot API milik attacker.
 3. **C2 Communication**: Menggunakan jalur HTTPS agar tidak dicurigai oleh firewall sederhana.
 
-## Disclaimer
-Proyek ini hanya untuk **tujuan edukasi**. Dilarang keras menggunakan script ini untuk aktivitas ilegal. Penulis tidak bertanggung jawab atas penyalahgunaan kode ini.
+## Kesimpulan & Pencegahan
+
+Simulasi ini menunjukkan betapa mudahnya malware berkomunikasi dengan server luar menggunakan layanan legal seperti Telegram.
+
+Cara Mencegah:
+
+    Jangan menjalankan script atau aplikasi dari sumber tidak dikenal.
+
+    Pantau lalu lintas jaringan (Network Monitoring) untuk mendeteksi aktivitas API yang mencurigakan.
+
+    Selalu lakukan backup data secara offline (Cold Backup).
+
