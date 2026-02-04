@@ -20,7 +20,7 @@ Proyek ini mensimulasikan cara kerja Ransomware modern yang menggunakan algoritm
 2. **Exfiltration**: Kunci enkripsi dikirim secara otomatis ke Telegram Bot API milik attacker.
 3. **C2 Communication**: Menggunakan jalur HTTPS agar tidak dicurigai oleh firewall sederhana.
 
-## Kesimpulan & Pencegahan
+## Kesimpulan 
 
 Simulasi ini menunjukkan betapa mudahnya malware berkomunikasi dengan server luar menggunakan layanan legal seperti Telegram.
 
